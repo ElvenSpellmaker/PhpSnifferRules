@@ -98,4 +98,12 @@ class Foo extends Bar implements FooInterface
 	{
 
 	}
+
+	/**
+	 * @return integer
+	 */
+	public function integerReturnType() : int
+	{
+
+	}
 }

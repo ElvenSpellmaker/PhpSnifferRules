@@ -72,4 +72,12 @@ class Test extends Bar implements FooInterface
 	{
 		// method body
 	}
+
+	/**
+	 * @return int
+	 */
+	public function integerReturnType() : int
+	{
+		return 0;
+	}
 }
